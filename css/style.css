@@ -1,0 +1,183 @@
+.application_wrap{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  height: 706px;
+  width:400px;
+  background-color:rgb(238,238,228);
+ 
+
+}
+
+.middle_wrapper{
+height: 600px;
+width: 283px;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+padding: 10px;
+}
+
+.inner_wrapper{
+height: 547px;
+width: 376px;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+padding: 10px;
+
+}
+
+
+
+ img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  }
+
+  .bot1{
+    position: absolute;
+    top: 10px;
+    width: 150px;
+    z-index: 2;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;
+    cursor: default;
+    user-select: none;
+    background: rgba(0,0,0,0);
+    text-transform: none;
+    text-align: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    font: inherit;
+    display: block;
+    letter-spacing: 0;
+    background-color: azure;
+    display: inline-block;
+
+
+  }
+
+  .bot2{
+    position: absolute;
+    top: 55px;
+    width: 210px;
+    z-index: 2;
+    height: auto;
+    border-radius: 4px 15px 15px 4px; 
+    border-bottom: none;
+    cursor: default;
+    user-select: none;
+    background: rgba(0,0,0,0);
+    text-transform: none;
+    text-align: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    font: inherit;
+    vertical-align: baseline;
+    display: inline-block;
+    letter-spacing: 0;
+    background-color: azure;
+ 
+    border-radius: 15px;
+    max-height: 1000px; 
+  }
+  .user1{
+    position: absolute;
+    top: 158px;
+    width: 100px;
+    z-index: 2;
+    height: auto;
+    border-radius:20px; 
+    border-bottom: none;
+    cursor: default;
+    user-select: none;
+    background: rgba(0,0,0,0);
+    text-transform: none;
+    text-align: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    font: inherit;
+    vertical-align: baseline;
+    display: inline-block;
+    letter-spacing: 0;
+    background-color:#f2f4f4;
+    margin-left: 150px;
+    border-radius: 15px;
+    max-height: 1000px; 
+    padding: 0px;
+ 
+  }
+  
+  .user2{
+    position: absolute;
+    top: 203px;
+    width: 100px;
+    z-index: 2;
+    border-radius:20px; 
+    border-bottom: none;
+    cursor: default;
+    user-select: none;
+    background: rgba(0,0,0,0);
+    text-transform: none;
+    text-align: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    font: inherit;
+    vertical-align: baseline;
+    letter-spacing: 0;
+    background-color:#f2f4f4;
+    margin-left: 150px;
+    border-radius: 15px;
+    padding: 0px;
+ 
+  }
+
+  .response{
+    position: absolute;
+    top: 258px;
+    width: 210px;
+    z-index: 2;
+    height: auto;
+    border-radius: 4px 15px 15px 4px; 
+    border-bottom: none;
+    cursor: default;
+    user-select: none;
+    background: rgba(0,0,0,0);
+    text-transform: none;
+    text-align: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    font: inherit;
+    vertical-align: baseline;
+    display: inline-block;
+    letter-spacing: 0;
+    background-color: azure;
+    border-radius: 15px;
+    max-height: 1000px; 
+  }
+
+  .inner_scrollable{
+  top: 230px;
+  height: 305px;
+  width: 263px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  overflow-y:scroll;
+  }
+  .bot3{
+    display: none;
+  }
